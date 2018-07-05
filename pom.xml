@@ -16,11 +16,14 @@
     </dependency>
   </dependencies>
   <build>
-    <resources>
-    <resource>
-      <directory>D:/Shared/MyApps/apache-tomcat-9.0.10/webapps</directory>
-    </resource>
-  </resources>
+
+<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <outputDirectory>D:\Shared\MyApps\apache-tomcat-9.0.10\webapps\</outputDirectory>
+            </configuration>
+        </plugin>
 
     <finalName>JenkinsTest</finalName>
   </build>
