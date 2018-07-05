@@ -16,6 +16,12 @@
     </dependency>
   </dependencies>
   <build>
+    <resources>
+    <resource>
+      <directory>D:/Shared/MyApps/apache-tomcat-9.0.10/webapps</directory>
+    </resource>
+  </resources>
+
     <finalName>JenkinsTest</finalName>
   </build>
 </project>
