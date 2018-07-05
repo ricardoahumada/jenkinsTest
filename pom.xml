@@ -15,17 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
   <build>
-
-<plugins>
-<plugin>
+	<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <configuration>
-                <outputDirectory>D:\Shared\MyApps\apache-tomcat-9.0.10\webapps\</outputDirectory>
+                <outputDirectory>C:\SOC_JWD\app\apache-tomcat-9.0.8\webapps</outputDirectory>
             </configuration>
         </plugin>
-</plugins>
+	</plugins>
     <finalName>JenkinsTest</finalName>
   </build>
 </project>
